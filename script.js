@@ -52,9 +52,7 @@ editButton.addEventListener("click", (e) => {
         </form>\
       ';
       li.innerHTML = "";
-      li.appendChild(addSection);
-      li.getElementById('inner-edit-btn').addEventListener("click", () 
-        
+      li.appendChild(addSection);        
     }
   });
 
