@@ -52,7 +52,29 @@ editButton.addEventListener("click", (e) => {
         </form>\
       ';
       li.innerHTML = "";
-      li.appendChild(addSection);        
+      li.appendChild(addSection);  
+    //   li.getElementById('inner-edit-btn').addEventListener("click", () => {
+    //     let add_item = document.getElementById("book-list");
+    //     let checkBox = document.createElement("input");
+    //     checkBox.type = "checkbox";
+    //     checkBox.className = "form-check-input";
+    //     let new_item = document.createElement("li");
+    //     let editButton = document.createElement("button");
+    //     editButton.type = "button";
+    //     editButton.textContent = "Edit";
+    //     editButton.className = "btn btn-primary btn-sm float-end";
+    //     let removeButton = document.createElement("button");
+    //     removeButton.type = "button";
+    //     removeButton.textContent = "Remove";
+    //     removeButton.className = "btn btn-danger btn-sm float-end";
+    //     new_item.className = "d-flex justify-content-between align-items-center list-group-item";
+    //     new_item.textContent = "Title: " + document.getElementById("title").value + "   Author: " + document.getElementById("author").value;
+    //     new_item.appendChild(checkBox);
+    //     new_item.appendChild(editButton);
+    //     new_item.appendChild(removeButton);
+    //     add_item.appendChild(new_item);
+    //     li.appendChild(add_item);
+    //   }); 
     }
   });
 
